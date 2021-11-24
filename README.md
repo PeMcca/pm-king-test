@@ -6,11 +6,13 @@ The project is built in **Java 11** using Gradle.
 
 To build, run `./gradlew build`. 
 
-Then, run `java -jar ./build.lib/king-high-score-1.0-SNAPSHOT.jar`. (there is also a jar package with the zip) 
+Then, run `java -jar ./build/lib/king-high-score-1.0-SNAPSHOT.jar`.
 
 The server will start up and listen on address `localhost:8000`.
 
 To test, run `./gradlew test`
+
+To format, run `./gradlew goJF`
 
 ### Example request
 `curl localhost:8000/45/login`
